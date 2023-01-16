@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <span class="header-arrow inactive">&lt;</span>
+    <section class="search">
+        <div class="search--link search--active"><a id="movie">Peliculas</a></div>
+        <div class="search--link"><a id="tv">TV Series</a></div>
+        <div class="search__input">
+            <form id="searchForm" class="header-searchForm">
+                <input type="text" placeholder="Vengadores" />
+                <button id="searchBtn">🔍</button>
+            </form>
+        </div>
+    </section>
+    <section class="categories">
+        <div class="categoryList">
+            <div class="categoryList__container active">
+                <a id="categoryTrend">
+                    <p>Tendencias</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="trending" class="contentListGrid">    
+        
+        <div class="contentListGrid__card">
+            <a id="title-id" href="">
+                <img src="./src/images/bleach.webp" alt="algo">
+            </a>
+            </div> 
+            <div class="contentListGrid__card">
+            <a id="title-id" href="">
+                <img src="./src/images/bleach.webp" alt="algo">
+            </a>
+            </div> 
+            <div class="contentListGrid__card">
+            <a id="title-id" href="">
+                <img src="./src/images/bleach.webp" alt="algo">
+            </a>
+            </div> 
+       
+    </section>
+    <section id="categoryMedia" >
+        <!-- <h3></h3> -->
+        <div class="contentListGrid">
+            <!--         
+                        <div class="contentListGrid__card">
+                        <a id="title-id" href="">
+                            <img src="./src/images/bleach.webp" alt="algo">
+                        </a>
+                        </div>  -->
+
+        </div>    
+       
+    </section>
+    <section id="searched" class="contentListGrid inactive">    
+        <!-- 
+            <div class="contentListGrid__card">
+            <a id="title-id" href="">
+                <img src="./src/images/bleach.webp" alt="algo">
+            </a>
+            </div> 
+        -->
+    </section>
+    <section class="productDetail">
+        <div class="productDetail--img">
+            <div class="productDetail--shadow"></div>
+        </div>
+        <div class="productDetail__head">
+            <h3>TITULO</h3>
+            <span>(año)</span>
+            <!-- <div class="productDetail__title--rankind">
+                <span>8.7</span>
+            </div> -->
+        </div>
+        <div class="product--genres categoryList">
+            <!-- <div class="categoryList__container">
+                <p id="id16" >Drama</p>
+            </div>
+            <div class=" categoryList__container">
+                <p id="id17" >Terror</p>
+            </div>
+            <div class="categoryList__container">
+                <p id="id18" >Accion</h3>
+            </div> -->
+        </div>
+        <div class="productDetail__info">
+            <h4>Sinopsis</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia architecto cum similique quidem laborum alias earum, ipsam magnam, rerum omnis voluptas, aliquam fuga! Nam asperiores officiis molestias iure cumque ea.</p>
+            <h4>DIRECTOR 
+                <a class='productDetail__info--director'>nombre</a> 
+            </h4>
+            <h4>cast:</h4>
+            <div class="productDetail__cast">
+                <!-- <div class="productDetail__cast--person">
+                    <a href="">actor name</a>
+                    <p>perosnaje name</p>
+                </div> -->
+            </div>
+
+        </div>
+        <div class="productDetail__recommendations">
+            <h4>Recomndaciones</h4>
+            <div class="contentListGrid"></div>
+        </div>
+    </section>
+
+<script src="./src/data.js"></script>
+<script src="./src/nodes.js"></script>
+<script src="./src/main.js"></script>
+<script src="./src/navigation.js"></script>
+</body>
+</html>
